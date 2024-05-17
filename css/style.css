@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    height: 40vh;
+    background-image: linear-gradient(to bottom right, #ffffff88, #1b0f068c) , url('../img/image5.jpg');
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-image__text a {
+    border-bottom: 0.2rem solid #7c807b;
+    color: #f0f0f0;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.btn:active {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(5px); 
+}
+
+.intro-image .btn:hover {
+background-color: rgba(5, 36, 7, 0.384);
+}
+
+.intro-text {
+    align-items: center;
+    background-color: #3f2e2b;
+    height: 600px;
+    margin-top: -5rem;
+    justify-content: center;
+    display: flex;
+    clip-path: polygon(38% 5%, 100% 0, 100% 35%, 100% 100%, 80% 90%, 50% 100%, 20% 90%, 0 100%, 0 0, 23% 4%);
+}
+
+.intro-text h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 5px rgb(13, 14, 11)
+}
+
+.intro-text__textbox {
+    padding: 30%;
+}
+
+.text-solid {
+    font-size: 2rem;
+    color: antiquewhite;
+    text-shadow: 0 0 12px #000000;
+}
+
+.packaging-image {
+    align-items: center;
+    background-attachment: fixed;
+    height: 60vh;
+    background-image: linear-gradient(to bottom right, #574e4ea9, #29282877), url('../img/image1.jpg');
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -5rem;
+    display: flex;
+    
+}
+
+.packaging-image a{
+    border-bottom: 0.2rem solid #73c2d9;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.packaging-image .btn:hover {
+    background-color: rgba(255, 255, 255, 0.384);
+}
+
+.packaging-text {
+    align-items: center;
+    background-color: #6e6e6e;
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    margin-top: -5rem;
+    clip-path: polygon(58% 0, 100% 0, 100% 35%, 100% 95%, 79% 97%, 50% 100%, 15% 100%, 0 100%, 0 0, 23% 4%);
+}
+.packaging-text h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 5px rgb(13, 14, 11)
+}
+
+.packaging_text__textbox {
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: antiquewhite;
+    text-shadow: 0 0 12px #000000;
+    padding: 30%;
+}
+
+.tutorials-image {
+    align-items: center;
+    background-attachment: fixed;
+    height: 60vh;
+    background-image: linear-gradient(to bottom right, #ffffff88, #1b0f068c) , url('../img/image6.jpg');
+    background-size: cover;
+    margin-top: -3rem;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    border-bottom: 0.2rem solid #77533d;
+    color: #eeeeee;
+    display: inline-block;
+    font-size: 3rem;
+    margin-top: 7.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}   
+
+.tutorials-image .btn:hover {
+    background-color: #763f1c70;
+}
+
+.footer {
+    background-color: #3d3a36;
+    text-align: center;
+    
+}
+
+.contact {
+    font-size: 2rem;
+    
+}
+
+.contact ul li {
+    display: inline-block;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: #7c807b;
+}
+
+.contact ul li:hover {
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+
+.contact ul li a:hover {
+    color: white;
+}
+
+.contact ul li a:hover {
+    transform: translateY(5px); 
+}
+
+.copyright {
+    color: gray;
+}
